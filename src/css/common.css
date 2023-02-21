@@ -16,3 +16,50 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Стилі для списку посилань */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+a {
+  display: block;
+  background-color: #0077cc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #005faa;
+}
+
+/* Додаткові стилі для окремих посилань */
+li:nth-child(1) a {
+  background-color: #7f5fc5;
+}
+
+li:nth-child(2) a {
+  background-color: #ff6b6b;
+}
+
+li:nth-child(3) a {
+  background-color: #2ecc71;
+}
